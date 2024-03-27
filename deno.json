@@ -1,0 +1,20 @@
+{
+  "jsx": "react-jsx",
+  "jsxImportSource": "react",
+
+  "tasks": {
+    "run": "deno run --allow-env --allow-net --allow-write --allow-read --allow-run main.tsx"
+  },
+
+  "imports": {
+    "@/": "./",
+    "std/": "https://deno.land/std@0.220.1/",
+    "react": "https://esm.sh/react@18.2.0",
+    "react/": "https://esm.sh/react@18.2.0/",
+    "react-dom": "https://esm.sh/react-dom@18.2.0",
+    "react-dom/": "https://esm.sh/react-dom@18.2.0/",
+    "satori": "https://esm.sh/satori@0.10.13",
+    "download": "https://deno.land/x/download@v2.0.2/mod.ts",
+    "zip": "https://deno.land/x/zip@v1.2.5/mod.ts"
+  }
+}
